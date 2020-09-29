@@ -1,5 +1,7 @@
 @keyframes fade-in {
   from{
+    // ******Cannot animate Display 
+    // after searching *******
     visibility: hidden;
     opacity: 0;
   }
