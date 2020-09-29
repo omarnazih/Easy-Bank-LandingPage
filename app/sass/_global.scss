@@ -72,3 +72,15 @@ button,
     display: none;
   }
 }
+
+
+// Overlay effect
+.overlay {
+  opacity: 0;
+  position: fixed;
+  top: 3.6375rem;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  background-image: linear-gradient($Dark-Blue, transparent);
+}
