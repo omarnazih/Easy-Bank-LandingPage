@@ -152,16 +152,16 @@ button,
   background-image: linear-gradient(#2d314d, transparent);
 }
 
-.header.open .header__menu > span:first-child {
+.header.open .header__toggle > span:first-child {
   -webkit-transform: rotate(45deg);
           transform: rotate(45deg);
 }
 
-.header.open .header__menu > span:nth-child(2) {
+.header.open .header__toggle > span:nth-child(2) {
   opacity: 0;
 }
 
-.header.open .header__menu > span:last-child {
+.header.open .header__toggle > span:last-child {
   -webkit-transform: rotate(-45deg);
           transform: rotate(-45deg);
 }
@@ -178,11 +178,11 @@ button,
   height: 1.375rem;
 }
 
-.header__menu {
+.header__toggle {
   cursor: pointer;
 }
 
-.header__menu > span {
+.header__toggle > span {
   display: block;
   height: 0.1875em;
   width: 1.875em;
@@ -193,8 +193,12 @@ button,
           transform-origin: 3px 1px;
 }
 
-.header__menu > span:not(:last-child) {
+.header__toggle > span:not(:last-child) {
   margin-bottom: 0.3125em;
+}
+
+.header__menu {
+  background-color: white;
 }
 
 .header__links a {
