@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Public+Sans:wght@300;400;700&display=swap");
 @-webkit-keyframes fade-in {
   from {
     visibility: hidden;
@@ -11,7 +12,6 @@
     opacity: 1;
   }
 }
-
 @keyframes fade-in {
   from {
     visibility: hidden;
@@ -83,7 +83,7 @@ html {
 
 body {
   font-size: 1.125rem;
-  font-family: monospace;
+  font-family: 'Public Sans', sans-serif;
 }
 
 .flex {
