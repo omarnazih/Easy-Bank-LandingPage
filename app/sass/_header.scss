@@ -62,6 +62,21 @@
 
   &__menu {
     background-color: $White;
+    border: 1px solid red; //outline
+    border-radius: 15px;
+    margin: 0 auto;
+    width: 50vw;
+    position: fixed;
+    top: 100px;
+    left: 25vw;
+    display: none;
+    z-index: 999;
+    a{
+      color: $Dark-Blue;
+      font-size: $font-med;
+      margin: 5px 0;
+    }
+
   }
 
   &__links {

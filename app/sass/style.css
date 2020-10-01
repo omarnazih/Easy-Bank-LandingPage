@@ -92,6 +92,13 @@ body {
   display: flex;
 }
 
+.flex-fd-c {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
 .flex-jc-c {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
@@ -199,6 +206,21 @@ button,
 
 .header__menu {
   background-color: white;
+  border: 1px solid red;
+  border-radius: 15px;
+  margin: 0 auto;
+  width: 50vw;
+  position: fixed;
+  top: 100px;
+  left: 25vw;
+  display: none;
+  z-index: 999;
+}
+
+.header__menu a {
+  color: #2d314d;
+  font-size: 1.125rem;
+  margin: 5px 0;
 }
 
 .header__links a {
